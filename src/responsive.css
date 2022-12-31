@@ -1,0 +1,15 @@
+@media(max-width:1292px){
+    .layout{
+        display: grid;
+        grid-template-areas:
+        "header header header header"
+        "nav nav nav nav"
+        "content content content lateral"
+        "footer footer footer footer"
+        ;
+        grid-template-rows: 100px 70px auto 70px;
+    }
+    .content{
+        justify-content: center;
+    }
+}
